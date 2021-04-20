@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Covid-19_LiveUpdates/static/css/main.97a33109.chunk.css",
+    "main.js": "/Covid-19_LiveUpdates/static/js/main.f55fbe59.chunk.js",
+    "main.js.map": "/Covid-19_LiveUpdates/static/js/main.f55fbe59.chunk.js.map",
+    "runtime-main.js": "/Covid-19_LiveUpdates/static/js/runtime-main.e055a009.js",
+    "runtime-main.js.map": "/Covid-19_LiveUpdates/static/js/runtime-main.e055a009.js.map",
+    "static/css/2.c1e28d34.chunk.css": "/Covid-19_LiveUpdates/static/css/2.c1e28d34.chunk.css",
+    "static/js/2.c04cf1f5.chunk.js": "/Covid-19_LiveUpdates/static/js/2.c04cf1f5.chunk.js",
+    "static/js/2.c04cf1f5.chunk.js.map": "/Covid-19_LiveUpdates/static/js/2.c04cf1f5.chunk.js.map",
+    "index.html": "/Covid-19_LiveUpdates/index.html",
+    "static/css/2.c1e28d34.chunk.css.map": "/Covid-19_LiveUpdates/static/css/2.c1e28d34.chunk.css.map",
+    "static/css/main.97a33109.chunk.css.map": "/Covid-19_LiveUpdates/static/css/main.97a33109.chunk.css.map",
+    "static/js/2.c04cf1f5.chunk.js.LICENSE.txt": "/Covid-19_LiveUpdates/static/js/2.c04cf1f5.chunk.js.LICENSE.txt",
+    "static/media/Map.css": "/Covid-19_LiveUpdates/static/media/Oswald-Regular.19286529.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e055a009.js",
+    "static/css/2.c1e28d34.chunk.css",
+    "static/js/2.c04cf1f5.chunk.js",
+    "static/css/main.97a33109.chunk.css",
+    "static/js/main.f55fbe59.chunk.js"
+  ]
+}
