@@ -1,0 +1,187 @@
+@font-face {
+  font-family: Oswald-ExtraLight;
+  src: local("Oswald-ExtraLight"),
+    url(./fontAndImgs/Oswald-ExtraLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: Oswald-Regular;
+  src: local("Oswald-Regular"),
+    url(./fontAndImgs/Oswald-Regular.ttf) format("truetype");
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebecf0;
+  padding: 20px;
+}
+
+.app__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.25;
+
+  padding-right: 10px;
+}
+
+.app__right {
+  display: flex;
+  flex: 0.75;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  z-index: -1;
+
+  background-color: #b80c3f;
+}
+
+.appTitle {
+  font-family: "Oswald-ExtraLight", sans-serif !important;
+  font-size: 40px;
+  color: whitesmoke;
+  padding-right: 2%;
+  padding-top: 2.5px;
+}
+
+@media (max-width: 990px) {
+  .navBar {
+    flex-direction: column-reverse;
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  .appTitle {
+    padding-left: 25px;
+  }
+}
+
+.dropdown {
+  padding-top: 12.5px !important;
+  padding-left: 22.5px;
+}
+
+.dd-wrapper {
+  font-family: "Oswald-ExtraLight", sans-serif !important;
+
+  position: relative !important;
+  width: 300px !important;
+  font-size: 1.6rem !important;
+  user-select: none !important;
+}
+
+.dd-header {
+  font-family: "Oswald-ExtraLight", sans-serif !important;
+
+  display: flex !important;
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  position: relative !important;
+  border-radius: 1px !important;
+  background-color: #e03467 !important;
+  border-color: #e03467 !important;
+  color: whitesmoke !important;
+  line-height: 38px !important;
+  cursor: default !important;
+  cursor: pointer !important;
+}
+
+.dd-header-title {
+  font-family: "Oswald-ExtraLight", sans-serif !important;
+
+  margin: 2px 20px !important;
+  margin-right: 30px !important;
+}
+
+.dd-header:hover {
+  background-color: #900017 !important;
+  color: whitesmoke !important;
+  border-color: #900017 !important;
+}
+
+.dd-list {
+  font-family: "Oswald-ExtraLight", sans-serif !important;
+
+  position: absolute !important;
+  z-index: 10 !important;
+  width: 100% !important;
+  max-height: 260px !important;
+  border: 1px solid black !important;
+  border-top: none !important;
+  border-bottom-left-radius: 1px !important;
+  border-bottom-right-radius: 1px !important;
+  background-color: #e03467 !important;
+  color: whitesmoke !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.dd-scroll-list {
+  font-family: "Oswald-ExtraLight", sans-serif !important;
+
+  overflow-y: scroll !important;
+  max-height: 215px !important;
+  padding: 15px 0 !important;
+}
+
+.dd-list-item {
+  font-family: "Oswald-ExtraLight", sans-serif !important;
+
+  display: inline-block !important;
+  overflow: hidden !important;
+  width: 100% !important;
+  padding: 8px 10px !important;
+  font-size: 1.5rem !important;
+  line-height: 1.6rem !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  cursor: default !important;
+  cursor: pointer !important;
+}
+
+.dd-list-item.no-result {
+  font-weight: normal !important;
+  cursor: default !important;
+}
+
+.dd-list-item:hover {
+  background-color: #900017 !important;
+  color: whitesmoke !important;
+}
+
+.dd-list-search-bar {
+  font-family: "Oswald-ExtraLight", sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: whitesmoke;
+  box-shadow: inset 0 0 2.5px grey;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

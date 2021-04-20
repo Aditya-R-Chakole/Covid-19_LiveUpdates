@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Oswald-ExtraLight;
+  src: local("Oswald-ExtraLight"),
+    url(../../fontAndImgs//Oswald-ExtraLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: Oswald-Regular;
+  src: local("Oswald-Regular"),
+    url(../../fontAndImgs/Oswald-Regular.ttf) format("truetype");
+}
+
+.table {
+  margin-top: 5px;
+  overflow-y: scroll;
+  height: 365px;
+  color: gray;
+  font-family: "Oswald-Regular", sans-serif !important;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #ffffff;
+  /* #f3f2f8; */
+}
+.heading {
+  font-family: "Oswald-Regular", sans-serif !important;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 2px;
+
+  position: sticky;
+  top: 0;
+  background-color: #ebecf0;
+}
